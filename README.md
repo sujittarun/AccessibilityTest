@@ -1,6 +1,7 @@
 # AccessibilityTest
 Accessibility test on BOA site.
 
+
 Acceptance Criteria:
 - Idea is to run the accessibility test on BOA site with a single flag.. If you switch the flag off by passing the value "runAXE=False" you can turn the AXE analysis on this project and if you want to run the AXE tool analysis on all the pages then simply pass the "runAXE=True" value. By default value will be True.
 - I made the code in a way it is just simple steps
