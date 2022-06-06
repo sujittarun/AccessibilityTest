@@ -14,10 +14,10 @@ After testing the BOA webpage here is what I found
 - Few are not having unique ID attributes. entire DOm should have unique id values for all elements on page
 - Form elemnt doesn't have lable. This will also be an issue for text to speech tools if there is no lable
 - There are many elements without landmark, this is one more problem for screen readers.
-- 
 
 
-_Project Screenshots with Accessibility Voilation output:_
+
+<h2>Project Screenshots with Accessibility Voilation output:</h2>
 <img width="1363" alt="Screenshot 2022-06-06 at 3 21 01 PM" src="https://user-images.githubusercontent.com/9115366/172139052-31fe7a78-1f6e-405b-84d7-71ce01f103ff.png">
 
 <img width="1349" alt="Screenshot 2022-06-06 at 3 21 28 PM" src="https://user-images.githubusercontent.com/9115366/172139111-97e7dc19-08a5-4514-8aa8-597a96a474d3.png">
