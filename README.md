@@ -1,7 +1,15 @@
 # AccessibilityTest
 Accessibility test on BOA site.
 
-Idea is to run the accessibility test on BOA site with a single flag.. If you switch the flag off by passing the value "runAXE=False" you can turn the AXE analysis on this project and if you want to run the AXE tool analysis on all the pages then simply pass the "runAXE=True" value. By default value will be True.
+Acceptance Criteria:
+- Idea is to run the accessibility test on BOA site with a single flag.. If you switch the flag off by passing the value "runAXE=False" you can turn the AXE analysis on this project and if you want to run the AXE tool analysis on all the pages then simply pass the "runAXE=True" value. By default value will be True.
+- I made the code in a way it is just simple steps
+  * Clone/download this project.
+  * setup the project in any IDE
+  * run the boaAccesiblity file
+You can also see while running I made the element boarders highligh in Green color so that we know what selenium is doing.
+- You can find the accessibility voilaiton report in file Voilation_Report.docx
+- This project can be enhanced by writting more implicit waits and adding properties from external sources(for example runAXE flag value). Also we can make a base framework of selenium and exted that framework to any appplication. Also we can extend this by integrate any tools or write our one rules if needed for analysing the website.
 
 
 
