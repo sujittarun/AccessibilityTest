@@ -1,5 +1,9 @@
 # AccessibilityTest
-Accessibility test on BOA site
+Accessibility test on BOA site.
+
+Idea is to run the accessibility test on BOA site with a single flag.. If you switch the flag off by passing the value "runAXE=False" you can turn the AXE analysis on this project and if you want to run the AXE tool analysis on all the pages then simply pass the "runAXE=True" value. By default value will be True.
+
+
 
 
 <h1>Project execution Recording can be seen here</h1>
@@ -8,11 +12,23 @@ Accessibility test on BOA site
 https://user-images.githubusercontent.com/9115366/172140331-be8220de-f20c-4a1e-8a3b-de0b828804db.mp4
 
 
+
+
+
+
+
 ## Brief Summary
 * Most of the issues where with **ARIA** attribute where WCAG standards are missing. If ARIA attribute is not as per standard it might effect the text to speech tools where it might not read out properly.
 * Few are not having unique ID attributes. entire DOm should have unique id values for all elements on page.
 * Form elemnt doesn't have lable. This will also be an issue for text to speech tools if there is no lable.
 * There are many elements without landmark, this is one more problem for screen readers.
+
+
+### Voilation report is also present in the project Voilation_report.docx
+
+
+
+
 
 
 
