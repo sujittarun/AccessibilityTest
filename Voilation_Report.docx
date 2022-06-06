@@ -1,0 +1,567 @@
+Page Name:  Main Page
+Found 5 accessibility violations:
+1) ARIA hidden element must not contain focusable elements: https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI
+  a) ["#slide-1"]
+    Fix all of the following:
+      Focusable content should have tabindex='-1' or be removed from the DOM
+
+
+2) IDs of active elements must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id-active?application=axeAPI
+  a) ["#responsive-signin > .secure-signin-submit.mr-25[data-bactmln=\"validate-signin-firstfactor\"]"]
+    Fix any of the following:
+      Document has active elements with the same id attribute: secure-signin-submit
+
+
+  b) ["p:nth-child(2) > .spa-ui-layer-modal-link.spa-ui-layer-link[href$=\"sipc\\.org\\/\"]"]
+    Fix any of the following:
+      Document has active elements with the same id attribute: sipc
+
+
+3) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) [".flex-grid-layout"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  b) [".flex-grid-layout > .head-row.small-centered"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  c) [".medium-3.navigation__column.column:nth-child(1) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(1) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  d) [".medium-3.navigation__column.column:nth-child(1) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(2) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  e) [".medium-3.navigation__column.column:nth-child(1) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(3) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  f) [".medium-3.navigation__column.column:nth-child(1) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(4) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  g) [".medium-3.navigation__column.column:nth-child(1) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(5) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  h) [".medium-3.navigation__column.column:nth-child(2) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(1) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  i) [".medium-3.navigation__column.column:nth-child(2) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(2) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  j) [".js-nav-section-container > .navigation__list > .navigation__item:nth-child(3) > .get-the-app-link-header-footer.spa-ui-layer-modal-link[rel=\"globalGetAppModalContent\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  k) [".medium-3.navigation__column.column:nth-child(2) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(4) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  l) [".medium-3.navigation__column.column:nth-child(2) > .js-nav-section-container > .navigation__list > .navigation__item:nth-child(5) > a"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  m) ["form > .ft-small"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  n) ["#caw-signin > .hidden.row:nth-child(5)"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  o) ["#caw-signin > .hidden.row:nth-child(5) > .ft-link[type=\"link\"][href=\"javascript\\:void\\(0\\)\\;\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  p) ["#ah-cq-container > .spa-collapse-large.full-width.spa-collapse-small"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  q) ["#otp-request-caw-buttons > .btn-send-otp.spa-btn--expand-on-small"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  r) ["#Path_Clipping_Path > path"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+4) Document must have one main landmark: https://dequeuniversity.com/rules/axe/3.5/landmark-one-main?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Document does not have a main landmark
+
+
+5) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [".spa-page-title"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [".engagement-image"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) [".sign-in-header-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) [".show-for-medium-up[data-font=\"cnx-regular\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [".small-12.columns > .get-app-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) ["#getTheAppModuleButton"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) ["#popularServicesOlbModule > section > h2"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) ["#signInTransferMoney > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) ["#signInTransferMoney > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) ["#signInBillPay > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) ["#signInBillPay > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) ["#signInScheduleAppointment > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) ["#signInScheduleAppointment > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) ["#signInOrderChecks > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) ["#signInOrderChecks > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  p) ["#signInGoPaperless > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  q) ["#signInGoPaperless > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  r) ["#signInActivateCard > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  s) ["#signInActivateCard > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  t) ["#singInOpenNewAccount > .sign-in-text"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  u) ["#singInOpenNewAccount > .headline[data-font=\"cnx-light\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  v) ["#signInAdditionalServicesModule > section > h2"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  w) [".content-row"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  x) ["section > .text-center.row:nth-child(2)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  y) [".text-center.row:nth-child(3)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  z) [".text-center.row:nth-child(4)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  aa) ["label[for=\"locationInputField\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ab) ["#locationInputField"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ac) ["#formFindLocation > .spa-input-box.spa-input--sparta2.spa-input > .spa-input-hint"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ad) ["#findLocationGoButton"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  ae) [".flex-right"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+#Page Name:  Enroll Online Page
+Found 8 accessibility violations:
+1) Required ARIA attributes must be provided: https://dequeuniversity.com/rules/axe/3.5/aria-required-attr?application=axeAPI
+  a) ["#skip-to-h1"]
+    Fix any of the following:
+      Required ARIA attribute not present: aria-level
+
+
+2) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) ["#title-section > .mbottom-30.row > .intro-text.column.small-12"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  b) [".btn-send-otp"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  c) ["#otp-request-caw-buttons > .btn-cancel.spa-btn--small.spa-btn--secondary"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  d) [".enroll-options-container.no-padding.column"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  e) [".title-row.mt-20.mb-30 > div > .closeIcon.spa-ui-layer-close"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  f) [".title-row.mt-20.mb-30 > div > .closeIcon.spa-ui-layer-close > .spa-close-x[aria-hidden=\"true\"] > img[width=\"\\31 5\"][height=\"\\32 0\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  g) ["div[data-content=\"service-aggrement\"]"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+3) Headings must not be empty: https://dequeuniversity.com/rules/axe/3.5/empty-heading?application=axeAPI
+  a) ["#header-logo > h2"]
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+
+
+4) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.5/image-alt?application=axeAPI
+  a) [".fl-lt:nth-child(1) > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [".f-icon > img"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) Document must have one main landmark: https://dequeuniversity.com/rules/axe/3.5/landmark-one-main?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Document does not have a main landmark
+
+
+6) <ul> and <ol> must only directly contain <li>, <script> or <template> elements: https://dequeuniversity.com/rules/axe/3.5/list?application=axeAPI
+  a) [".spa-page-header-links"]
+    Fix all of the following:
+      List element has direct children that are not allowed inside <li> elements
+
+
+7) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.5/page-has-heading-one?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+8) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [".spa-page-title"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) ["#title-section"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) ["label[for=\"acctNumber\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) ["#acctNumber"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) ["label[for=\"ssNumber\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) ["#ssNumber"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) ["#trailing-section"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) ["#btn-section"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [".footer-inner"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+#Page Name:  routing number page
+Found 8 accessibility violations:
+1) Elements must only use allowed ARIA attributes: https://dequeuniversity.com/rules/axe/3.5/aria-allowed-attr?application=axeAPI
+  a) ["#nav-search-query"]
+    Fix any of the following:
+      ARIA attribute is not allowed: aria-expanded="false"
+
+
+2) ARIA attributes must conform to valid values: https://dequeuniversity.com/rules/axe/3.5/aria-valid-attr-value?application=axeAPI
+  a) ["div[aria-labelledby=\"faqABARoutingNumbersTab1\"]"]
+    Fix all of the following:
+      Invalid ARIA attribute value: aria-labelledby="faqABARoutingNumbersTab1"
+
+
+3) ARIA attributes must conform to valid names: https://dequeuniversity.com/rules/axe/3.5/aria-valid-attr?application=axeAPI
+  a) [".btn-bofa"]
+    Fix any of the following:
+      Invalid ARIA attribute name: aria-role
+
+
+4) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.5/duplicate-id?application=axeAPI
+  a) [".flex-grid-layout"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+  b) [".flex-grid-layout > .head-row"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+5) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.5/label?application=axeAPI
+  a) ["#nav-search-query"]
+    Fix all of the following:
+      Form element has explicit <label> that is hidden
+
+
+6) Document must have one main landmark: https://dequeuniversity.com/rules/axe/3.5/landmark-one-main?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Document does not have a main landmark
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) ["a[data-link-style=\"\\30 \"][name=\"get_the_app\"][role=\"link\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [".spa-page-title"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [".spa-global-search-page--title"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) ["#nav-search-query"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) ["#global-search-input-close-link"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [".spa-btn--secondary"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) [".search-container"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  g) [".spa-global-search-managed-top-result--section"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  h) [".spa-global-search-result-info--list-info[role=\"listitem\"]:nth-child(1)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  i) [".spa-global-search-result-info--list-info[role=\"listitem\"]:nth-child(2)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  j) ["a[data-id=\"-\\31 963575288\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  k) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(3) > .answer-container > .answer:nth-child(1)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  l) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(3) > .answer-container > .toggle-text.spa-btn--link.spa-btn"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  m) ["a[data-id=\"\\31 24223975\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  n) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(4) > .answer-container > .answer:nth-child(1)"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  o) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(4) > .answer-container > .toggle-text.spa-btn--link.spa-btn"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  p) ["a[data-id=\"-\\32 15424509\"]"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  q) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(5) > .answer-container > .answer > .ada-hidden"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  r) [".spa-global-search-result-faq--list.spa-global-search-result-faqinfo--data[role=\"listitem\"]:nth-child(5) > .answer-container > .answer > div"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  s) [".spa-global-search-result-feedback"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  t) ["#heading > .show-for-large-up"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  u) [".blocks-container"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
