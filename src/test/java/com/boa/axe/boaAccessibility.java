@@ -1,4 +1,5 @@
 package com.boa.axe;
+//Developed by Sujit Palukuru (tarun.sujit@gmail.com)
 
 import com.deque.axe.AXE;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -28,6 +29,7 @@ public  class boaAccessibility {
 
     private WebDriver driver;
     private static final URL scriptUrl = boaAccessibility.class.getResource("/axe.min.js");
+    public Boolean runAXE= true;
 
     /**
      * Instantiate the WebDriver and navigate to the test site
@@ -60,12 +62,17 @@ public  class boaAccessibility {
 
         driver.get("https://bankofamerica.com/online-banking/sign-in");
         Thread.sleep(5000);
+        if(runAXE)
+            runAxetool("Main Page");
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("arguments[0].style.border='4px solid green'", driver.findElement(By.id("header-enroll-in-online-banking-button")));
         driver.findElement(By.id("header-enroll-in-online-banking-button")).click();
         Assert.assertEquals(driver.findElement(By.xpath("//h1")).getText(),"Enroll in Online & Mobile Banking");
-        driver.navigate().back();
-        Thread.sleep(2000);
+        if(runAXE)
+            runAxetool("Enroll Online Page");
+        //driver.findElement(By.id("bacLogo")).click();
+        driver.get("https://bankofamerica.com/online-banking/sign-in");
+        Thread.sleep(4000);
         jsExecutor.executeScript("arguments[0].style.border='4px solid green'", driver.findElement(By.className("spa-circle-btn")));
         driver.findElement(By.className("spa-circle-btn")).click();
         Thread.sleep(6000);
@@ -76,13 +83,19 @@ public  class boaAccessibility {
         jsExecutor.executeScript("arguments[0].style.border='4px solid green'",driver.findElement(By.id("viewAllSearchresults")));
         driver.findElement(By.id("viewAllSearchresults")).click();
         Thread.sleep(3000);
+        if(runAXE)
+            runAxetool("routing number page");
+    }
+
+    public void runAxetool(String page){
         JSONObject responseJSON = new AXE.Builder(driver, scriptUrl).analyze();
         JSONArray violations = responseJSON.getJSONArray("violations");
         if (violations.length() == 0) {
             assertTrue("No violations found", true);
         } else {
             AXE.writeResults("Accessibility Test", responseJSON);
-            AXE.report(violations);
+            System.out.println("Page Name:  "+page);
+            System.out.println(AXE.report(violations));
         }
     }
 
